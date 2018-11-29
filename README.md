@@ -16,7 +16,7 @@ Nesse projeto você desenvolverá um feed de posts estilo Facebook. Crie um layo
 
 ## Entrega
 
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do código do desafio feito por mim aqui: https://github.com/Rocketseat/bootcamp-nodejs-desafio-02
+Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do código do desafio feito por mim aqui: https://github.com/Rocketseat/bootcamp-reactjs-desafio-01
 
 *PS.: Tente fazer o desafio sem olhar o código antes :)*
 
