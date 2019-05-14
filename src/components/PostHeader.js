@@ -1,20 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const PostHeader = props => (
+const PostHeader = ({ data }) => (
   <div className="post-header-container">
-    <img className="avatar" src={props.avatar} alt="avatar" />
+    <img className="avatar" src={data.avatar} alt="avatar" />
     <div className="data-container">
-      <strong>{props.name}</strong>
-      <span>{props.time}</span>
+      <strong>{data.name}</strong>
+      <span>{data.time}</span>
     </div>
   </div>
 );
 
 PostHeader.propTypes = {
-  name: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired,
-  time: PropTypes.string.isRequired,
+  data: PropTypes.objectOf(PropTypes.shape).isRequired,
 };
 
 export default PostHeader;
